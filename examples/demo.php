@@ -38,7 +38,7 @@ echo "============================================================\n\n";
 foreach ($stations as $label => $station) {
     echo '--- ' . $label . ' ---' . "\n\n";
 
-    $receipt = $station->serveOrder('Juan', 2);
+    $receipt = $station->serveOrder('Ana', 2);
     echo $receipt->format();
     echo "\n";
 }

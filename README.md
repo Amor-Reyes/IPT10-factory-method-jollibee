@@ -130,7 +130,7 @@ Get-ChildItem -Path src, examples, tests -Filter *.php -Recurse | ForEach-Object
 ================================
        JOLLIBEE ORDER RECEIPT
 ================================
-Customer : Juan
+Customer : Ana
 Item     : 2pc Chickenjoy with Gravy
 Qty      : 2
 Unit Price: PHP 178
@@ -150,7 +150,7 @@ Packaging: Packed 2 x 2pc Chickenjoy with Gravy in a paper bag
 ================================
        JOLLIBEE ORDER RECEIPT
 ================================
-Customer : Juan
+Customer : Ana
 Item     : Jolly Spaghetti with Hotdog
 Qty      : 2
 Unit Price: PHP 55
@@ -170,7 +170,7 @@ Packaging: Packed 2 x Jolly Spaghetti with Hotdog in a paper bag
 ================================
        JOLLIBEE ORDER RECEIPT
 ================================
-Customer : Juan
+Customer : Ana
 Item     : Cheesy Yumburger
 Qty      : 2
 Unit Price: PHP 50
@@ -190,7 +190,7 @@ Packaging: Packed 2 x Cheesy Yumburger in a paper bag
 ================================
        JOLLIBEE ORDER RECEIPT
 ================================
-Customer : Juan
+Customer : Ana
 Item     : Peach Mango Pie
 Qty      : 2
 Unit Price: PHP 39

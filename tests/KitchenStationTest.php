@@ -62,7 +62,7 @@ final class KitchenStationTest extends TestCase
         $station = new FakeKitchenStation($fake);
 
         $this->expectException(\InvalidArgumentException::class);
-        $station->serveOrder('Juan', 0);
+        $station->serveOrder('Ana', 0);
     }
 
     /**

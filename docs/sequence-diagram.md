@@ -11,7 +11,7 @@ sequenceDiagram
     participant CJ as Chickenjoy
     participant OR as OrderReceipt
 
-    Client->>CS: serveOrder("Juan", 2)
+    Client->>CS: serveOrder("Ana", 2)
     Note over CS: Validate quantity >= 1
 
     CS->>CS: createMenuItem()
@@ -40,7 +40,7 @@ sequenceDiagram
 
 ## Step-by-Step Explanation
 
-1. **Client calls `serveOrder("Juan", 2)`** on the `ChickenjoyStation` (typed as
+1. **Client calls `serveOrder("Ana", 2)`** on the `ChickenjoyStation` (typed as
    `KitchenStation`). The client never knows which product is created.
 
 2. **`serveOrder()` validates** that quantity is at least 1, then calls the
