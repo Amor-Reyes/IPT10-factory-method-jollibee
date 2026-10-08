@@ -1,8 +1,6 @@
 <?php
 
 /**
- * demo.php - Client code for the Factory Method Pattern demo
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP
@@ -17,11 +15,6 @@ use Ipt10\JollibeeOrders\ChickenjoyStation;
 use Ipt10\JollibeeOrders\KitchenStation;
 use Ipt10\JollibeeOrders\PieStation;
 use Ipt10\JollibeeOrders\SpaghettiStation;
-
-// ---------------------------------------------------------------
-// Build an array of KitchenStation objects (client depends only on
-// the abstract KitchenStation type, never on concrete products).
-// ---------------------------------------------------------------
 
 /** @var KitchenStation[] $stations */
 $stations = [

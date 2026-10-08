@@ -1,10 +1,6 @@
 <?php
 
 /**
- * PieStation - Concrete Creator (Factory Method Pattern)
- *
- * Overrides packOrder() to demonstrate the hook mechanism.
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP

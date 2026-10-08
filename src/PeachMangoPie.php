@@ -1,10 +1,6 @@
 <?php
 
 /**
- * PeachMangoPie - Concrete Product (Factory Method Pattern)
- *
- * Added last to prove extensibility: no changes needed in KitchenStation.
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP

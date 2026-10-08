@@ -1,8 +1,6 @@
 <?php
 
 /**
- * KitchenStationTest - PHPUnit tests for the Factory Method Pattern
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP
@@ -93,10 +91,7 @@ final class KitchenStationTest extends TestCase
         $pieStation = new PieStation();
         $receipt    = $pieStation->serveOrder('Ana', 1);
 
-        // PieStation overrides packOrder to use "paper sleeve"
         $this->assertStringContainsString('paper sleeve', $receipt->packaging);
-
-        // Verify it differs from the default "paper bag" text
         $this->assertStringNotContainsString('paper bag', $receipt->packaging);
     }
 

@@ -1,8 +1,6 @@
 <?php
 
 /**
- * OrderReceipt - Value Object returned by KitchenStation::serveOrder()
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP

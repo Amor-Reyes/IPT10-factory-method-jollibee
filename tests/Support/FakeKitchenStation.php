@@ -1,11 +1,6 @@
 <?php
 
 /**
- * FakeKitchenStation - Test double that extends KitchenStation
- *
- * Returns an injected MenuItem and counts how many times
- * createMenuItem() was called.
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP

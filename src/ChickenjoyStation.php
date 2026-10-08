@@ -1,8 +1,6 @@
 <?php
 
 /**
- * ChickenjoyStation - Concrete Creator (Factory Method Pattern)
- *
  * Name:    Ana Marietta Amor B. Reyes
  * Section: BSIT 3-A
  * Subject: IPT10 - Design Patterns in PHP
